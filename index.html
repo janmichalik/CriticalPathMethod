@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Metoda Ścieżki Krytycznej</title>
+</head>
+
+<body>
+	<header class="title">Metoda Ścieżki Krytycznej</header>
+	<div class="content" id="content">
+		<nav>
+			<span class="mmenu"><a class=link href="index.html">nowa ścieżka</a></span>
+			<span class="mmenu"><a class=link href="sprawozdanie.pdf">o algorytmie</a></span>
+		</nav>
+		<center>
+			<div class="box" id="ins">
+				Wprowadź ilość zadań: <input id="ilosc" name="ilosc" value=5 type="number" min="1" max="26"></input><br>
+				<button onclick="this.parentNode.style.display = 'none';insert_data()">wprowadź dane</button>
+				<button onclick="this.parentNode.style.display = 'none';random();" ;>losuj dane</button>
+			</div>
+		</center>
+		<div id="wynik"></div>
+		<div id="canvas">
+			<center><canvas id="cpm">twoja przeglądarka nie obsługuje płótna (canvas error)</canvas></center>
+		</div>
+	</div>
+	<script src="cpm.js"></script>
+</body>
+
+</html>

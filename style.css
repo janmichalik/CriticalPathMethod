@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	background-color: #F0F0F0;
+	font-family: "Consolas", "Ubuntu Mono", "Courier New", "Courier", monospace;
+	font-size: 14px;
+}
+button {
+	margin-top: 3px;
+	font-family: "Consolas", "Courier New";
+}
+hr {
+	border: 1;
+	border-style: solid;
+	border-color: #F0F0F0;
+}
+input[type=text], input[type=number] {
+	margin: 3px;
+	border: 0;
+	background-color: #F0F0F0;
+	width: 50px;
+	font-family: "Consolas", "Courier New";
+	margin-right: 10px;
+}
+input[type=button] {
+	font-family: "Consolas", "Courier New";
+}
+nav {
+	margin-bottom: 20px;
+	text-align: center;
+}
+table {
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	display: inline-table;
+	margin-left: 20px;
+	background-color: #E7F8F1;
+	box-shadow: 2px 2px 2px silver;
+	margin-right: 20px;
+}
+table td, tr {
+	border: 1px solid #3CBC8D;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.box {
+	margin: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px silver;
+	margin-right: 20px;
+}
+.content {
+	display: table;
+	margin: 0 auto;
+}
+.link {
+	text-decoration: none;
+	color:white;
+}
+.mmenu {
+	margin-right: 20px;
+	background-color: #3CBC8D;
+	color:white;
+	cursor: pointer;
+	padding: 3px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px silver;
+}
+.mmenu:hover {
+	background-color: #2D8C68;
+
+}
+.title {
+	background-color: white;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 3px silver;
+}
