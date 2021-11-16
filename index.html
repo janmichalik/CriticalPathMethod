@@ -23,13 +23,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<header class="title">Metoda Ścieżki Krytycznej</header>
 	<div class="content" id="content">
 		<nav>
-			<span class="mmenu"><a class=link href="index.html">nowa ścieżka</a></span>
+			<span class="mmenu"><a class="link" href="index.html">nowa ścieżka</a></span>
 		</nav>
 		<div style="text-align: center;">
 			<div class="box" id="ins">
 				Wprowadź ilość zadań: <input id="ilosc" name="ilosc" value=5 type="number" min="1" max="26"></input><br>
-				<button onclick="this.parentNode.style.display = 'none';insert_data()">wprowadź dane</button>
-				<button onclick="this.parentNode.style.display = 'none';random();" ;>losuj dane</button>
+				<button class="insert_data" onclick="this.parentNode.style.display = 'none';insert_data()">wprowadź dane</button>
+				<button class="random_data" onclick="this.parentNode.style.display = 'none';random();" ;>losuj dane</button>
 			</div>
 		</div>
 		<div id="wynik"></div>
